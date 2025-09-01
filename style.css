@@ -1,0 +1,34 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa; /* Grigio chiaro per lo sfondo */
+}
+
+/* Stile per l'intestazione */
+header {
+    background-color: #003366; /* Blu scuro professionale */
+    color: white;
+}
+
+/* Stile per la sezione principale */
+main .card {
+    border: none; /* Rimuove il bordo predefinito della card */
+    border-radius: 15px; /* Angoli arrotondati per un look moderno */
+}
+
+/* Stile per il pulsante di download */
+.btn-primary {
+    background-color: #007bff; /* Blu standard di Bootstrap */
+    border-color: #007bff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Scurisce il blu al passaggio del mouse */
+    transform: translateY(-2px); /* Effetto leggero per attirare l'attenzione */
+}
+
+/* Stile per il piè di pagina */
+footer {
+    background-color: #343a40; /* Grigio scuro per il footer */
+    color: white;
+}
