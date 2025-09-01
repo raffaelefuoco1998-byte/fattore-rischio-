@@ -31,4 +31,8 @@ main .card {
 footer {
     background-color: #343a40; /* Grigio scuro per il footer */
     color: white;
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
 }
